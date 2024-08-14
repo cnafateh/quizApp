@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="shortcut icon" href="./imgs/1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="page">
+                <h1>Quiz App</h1>
+                <p class="count">How many questions ???</p>
+                <form>
+                    <input type="number" min="1" oninput="validity.valid||(value='');" required />
+                    <button class="startBtn">Start</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./js/app.js"></script>
+</body>
+</html>
